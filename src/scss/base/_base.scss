@@ -2,3 +2,21 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.flex {
+  display: flex;
+  height: 100vh;
+
+  > div {
+    width: 100%;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 8px;
+  background: #000000;
+  color: #ffffff;
+}
